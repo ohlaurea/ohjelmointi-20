@@ -1,12 +1,14 @@
 ---
 path: '/osa-3/1-virheiden-etsimisesta'
 title: 'Virheiden etsimisestä'
-hidden: true
+hidden: false
 ---
 
 <text-box variant='learningObjectives' name='Oppimistavoitteet'>
 
-- TODO
+- Tutustut termiin tahaton sokeus ja tiedät, että opit tunnistamaan oleellisia (ja epäoleellisia) asioita harjoittelemalla.
+- Tutustut lähdekoodin kommentointitapoihin ja huomaat miten tärkeää muuttujien nimentä on koodin ymmärrettävyydelle.
+- Tunnet käsitteen print-debuggaus ja tiedät miten ohjelmakoodissa olevia virheitä voi etsiä tulostuslauseiden avulla.
 
 </text-box>
 

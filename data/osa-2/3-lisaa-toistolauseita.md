@@ -1,6 +1,7 @@
 ---
 path: '/osa-2/3-lisaa-toistolauseita'
 title: 'Lisää toistolauseita'
+hidden: false
 ---
 
 
@@ -11,6 +12,12 @@ title: 'Lisää toistolauseita'
 - Tiedät tilanteita, joihin while-toistolause sopii, ja tilanteita, joihin for-toistolause sopii.
 
 </text-box>
+
+<text-box variant="hint" name="Motivaatioita ja opiskelustrategioita kartoittava kysely">
+Tässä kohtaa vastaat motivaatioita ja opiskelustrategioita kartoittavaan kyselyyn. Kyselynä käytetään Paul Pintrichin ja hänen kollegoidensa kehittämää MSLQ-kyselyä, joka sisältää 81 motivaatioihin ja opiskelustrategioihin liittyvää väittämää. Kyselyn tuloksia käytetään osana Ohjelmoinnin MOOC -kurssin kehitystä sekä kurssiin ja oppimiseen liittyvää tutkimusta. <google-form-link href="https://docs.google.com/forms/d/e/1FAIpQLSdlc0iS1x-dqbOIDrHIzB9NHrtCu_WkXEvFwXUPpAEV1vnUjQ/viewform?usp=pp_url" emailfieldname="entry.575150039">Avaa kysely tätä linkkiä klikkaamalla</google-form-link>.
+</text-box>
+
+<quiz id="d51c840f-02ed-5129-89b3-fd5396ddccd6"></quiz>
 
 
 Tähän mennessä käyttämämme "while-true" -toistolause on erittäin näppärä silloin, kun ohjelmassa tulee toistaa toiminnallisuutta kunnes käyttäjä syöttää tietynlaisen syötteen.
@@ -260,8 +267,6 @@ Ohjelman tulostus seuraavanlainen:
 </sample-output>
 
 Vaikka muuttujan `luku` arvo on välillä 2, toistolauseen suoritus ei lopu koskaan.
-
-TODO: miksi alla oleva ei ole boldattu?
 
 **Toistolauseen ehto tarkistetaan silloin kun toistolauseen toistaminen aloitetaan sekä silloin kun koodin suoritus on päässyt toistolauseen lopettavaan aaltosulkuun asti.** Mikäli toistolauseen ehdon lauseke on evaluoituu todeksi eli muotoon `true`, suoritus jatkuu toistolauseen alusta. Mikäli lauseke evaluoituu epätodeksi eli muotoon `false`, suoritus siirtyy toistolausetta seuraavaan lauseeseen.
 

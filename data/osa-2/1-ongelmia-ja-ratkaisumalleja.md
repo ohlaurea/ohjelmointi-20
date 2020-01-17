@@ -11,7 +11,6 @@ title: 'Toistuvia ongelmia ja niiden ratkaisumalleja'
 
 </text-box>
 
-<quiz id="d51c840f-02ed-5129-89b3-fd5396ddccd6"></quiz>
 
 
 Samat pienet ongelmat (tai "osaongelmat") toistuvat ohjelmissa yhä uudestaan ja uudestaan: "Lue käyttäjältä syötettä", "Laske lukujen summa", jne.
@@ -43,8 +42,7 @@ public class Ohjelma {
 ```
 
 
-TODO: quiz -- ohjelma, jossa käyttäjältä kysytään luku ja merkkijono, tulostus käyttää niitä -- kysytään mitä käyttäjän tulee syöttää, jotta tulostus tietty
-
+<quiz id="a8b6ded2-865a-429c-8e82-df062c4c892c"></quiz>
 
 ## Laskemista
 
